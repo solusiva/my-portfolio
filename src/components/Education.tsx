@@ -13,7 +13,7 @@ const Education: React.FC = () => {
     {
       degree: 'Master of Computer Applications (MCA)',
       institution: 'Anna University',
-      duration: '2022 - 2024',
+      duration: '2023 - 2025',
       status: 'Completed',
       description: 'Advanced studies in computer applications with focus on software development, system analysis, and modern programming paradigms.',
       icon: GraduationCap,
@@ -22,7 +22,7 @@ const Education: React.FC = () => {
     {
       degree: 'Bachelor of Science in Information Technology (B.Sc. IT)',
       institution: 'Madurai Kamarajar University',
-      duration: '2019 - 2022',
+      duration: '2020 - 2023',
       status: 'Completed',
       description: 'Comprehensive study of information technology fundamentals, programming, database management, and web technologies.',
       icon: GraduationCap,
@@ -179,7 +179,7 @@ const Education: React.FC = () => {
             
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="space-y-2">
-                <div className="text-3xl font-bold text-accentCyan">6+</div>
+                <div className="text-3xl font-bold text-accentCyan">5+</div>
                 <p className="text-gray-300">Years of Education</p>
               </div>
               <div className="space-y-2">

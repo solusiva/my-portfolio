@@ -27,6 +27,15 @@ const Projects: React.FC = () => {
       github: '#',
       demo: '#',
       category: 'Web Application'
+    },
+    {
+      title: 'Car Partners Portal',
+      description: 'A comprehensive web application for college exam management system developed during postgraduate studies, enabling efficient exam creation and management.',
+      technologies: ['PHP','LARAVEL','MySQL', 'HTML', 'CSS', 'JavaScript'],
+      image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600',
+      github: '#',
+      demo: '#',
+      category: 'Web Application'
     }
   ];
 
