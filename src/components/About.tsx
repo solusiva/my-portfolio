@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { User, Mail, Phone, MapPin, Languages } from 'lucide-react';
+import profilePic from "../assets/siva.webp";
+
 
 const About: React.FC = () => {
   const { ref, inView } = useInView({
@@ -69,7 +71,7 @@ const About: React.FC = () => {
                 className="w-64 h-64 mx-auto bg-gradient-to-br from-accentCyan/20 to-accentViolet/20 rounded-full p-2 shadow-soft"
               >
                 <img
-                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  src={profilePic}
                   alt="SIVASUBRAMANIYAN L"
                   className="w-full h-full object-cover rounded-full"
                 />
