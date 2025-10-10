@@ -5,7 +5,7 @@ import { ChevronDown, Github, Linkedin, Mail, Phone } from 'lucide-react';
 const Hero: React.FC = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const fullText = "Fresher • Problem-Solver • Full-Stack Enthusiast";
+  const fullText = "Fresher • Solution Architect • Full-Stack Enthusiast";
 
   useEffect(() => {
     if (currentIndex < fullText.length) {
