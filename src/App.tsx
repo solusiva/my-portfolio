@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-bgDark text-white font-inter">
+    <div className="bg-bgDark text-white font-inter overflow-y-hidden">
       <Navbar />
       <Hero />
       <About />
